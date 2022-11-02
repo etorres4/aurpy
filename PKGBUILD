@@ -8,7 +8,7 @@ url="https://github.com/etorres4/aurpy"
 license=('MIT')
 groups=()
 depends=(python python-requests python-termcolor)
-makedepends=(git python-setuptools)
+makedepends=(git python-setuptools python-sphinx)
 checkdepends=(python=pytest)
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
